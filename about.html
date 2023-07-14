@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>About</title>
+  <link href="./css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <section>
+    <div class="navbar">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <h2 class="titles">About Me</h2>
+        <div class="card-content">
+          <p>I am a Business Analyst, I bring a unique combination of technical skills and interpersonal relationships to the table. I have a strong belief in offering a service of excellence in the marketplace, which is driven by both data and business needs. My main focus is always 100% on the client.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="titles">Educational Background</h2>
+        <div class="card-content">
+          <p>
+            Universidad Argentina de la Empresa (UADE), Argentina
+            Industrial engineering
+            2018 - 2020
+            3rd Year student
+            GPA 9/10
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="titles">Getting better the job is done</h2>
+        <div class="card-content">
+          <p>
+            Outside of coding, I enjoy exploring new technologies, reading tech blogs, and attending tech conferences. 
+            I also have a keen interest in photography and love capturing the beauty of the world through my smartphone camera lens.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="location-section">
+      <h2 class="section-title">Places</h2>
+      <div class="location-content">
+        <p>
+          Born in: Buenos Aires, Argentina
+        </p>
+        <p>
+          Cities visited:
+          <ul id="city-list">
+            <li>London</li>
+            <li>Madrid</li>
+            <li>Tel Aviv</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="maps-container">
+    <iframe id="map-iframe" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="map-buttons">
+      <button id="previous-btn">Previous</button>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-message" id="footer-message"></div>
+  </footer>
+  <script src="./js/maps.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
